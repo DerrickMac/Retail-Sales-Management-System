@@ -1,0 +1,11 @@
+# Exclude package lock file
+package-lock.json
+
+# Exclude database folder
+database/
+
+# Exclude node modules
+node_modules/
+
+# Exclude SQL files
+SQL files/
