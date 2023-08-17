@@ -2,6 +2,21 @@
 
 This is a retail sales management system built with Node.js and Express. It allows managing customers, menu items, orders, and more for an ice cream shop.
 
+## Tech Stack
+
+### Backend
+- Node.js
+- Express
+
+### Frontend
+- EJS for templating
+- jQuery for DOM manipulation
+- Bootstrap for styling
+- CSS custom styles
+
+The backend Express server handles the API routes and database integration.
+The frontend uses EJS templates served by the Express server. jQuery scripts add interactivity and manipulate the DOM. Bootstrap provides styling and layout.
+
 ## Features
 
 ### Customer Management
