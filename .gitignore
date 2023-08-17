@@ -1,11 +1,17 @@
 # Exclude package lock file
 package-lock.json
 
+# Exclude *.pem
+*.pem
+
 # Exclude database folder
 database/
 
 # Exclude node modules
 node_modules/
+
+# Exclude EC2 folder
+EC2/
 
 # Exclude SQL files
 SQL files/
