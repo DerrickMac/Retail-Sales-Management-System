@@ -12,7 +12,7 @@
     }
 
     // Override POST with DELETE method
-    delete_override(suborderOption, suborder_data);
+    delete_suborder_override(suborderOption, suborder_data);
   }
 
 
@@ -21,7 +21,7 @@
     event.stopPropagation();
   }
 
-  function delete_override(suborderOption, suborder_data) {
+  function delete_suborder_override(suborderOption, suborder_data) {
     const array = JSON.parse(suborderOption.value);
     const OrderID = suborder_data[array[0]].order_id;
     const SuborderID = suborder_data[array[0]].suborder_item_id;
