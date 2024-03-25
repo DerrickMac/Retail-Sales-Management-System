@@ -2,8 +2,6 @@
 
 This is a retail sales management system built with Node.js and Express. It allows managing customers, menu items, orders, and more for an ice cream shop.
 
-## URL (NEW*): http://ec2-35-84-212-92.us-west-2.compute.amazonaws.com:52990/
-
 ## Tech Stack
 
 ### Backend
